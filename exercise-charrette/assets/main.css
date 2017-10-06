@@ -1,0 +1,224 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+/* items */
+
+.item {
+	height: 370px;
+	width: 370px;
+	border-radius: 200px;
+	text-align: center;
+	line-height: 370px;
+	font-size: 30px;
+	background: #F7803C;
+	color: white;
+	margin: 10px;
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left;
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+.item2 {
+	height: 370px;
+	width: 370px;
+	border-radius: 120px;
+	background: #566965;
+	text-align: center;
+	line-height: 370px;
+	font-size: 30px;
+	color: white;
+
+	margin: 10px;
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left;
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+.item3 {
+		height: 370px;
+		width: 370px;
+		background: #A14016;
+		border-radius: 50px;
+		text-align: center;
+		line-height: 370px;
+		font-size: 30px;
+		color: white;
+
+		margin: 10px;
+
+		/* comment out 'float: left;' to have items stack in a single column */
+		float: left;
+
+		/* uncomment this to get CSS transitions (conflicts with jQuery) */
+		/* transition: all 500ms ease; */
+	};
+	color: #F7803C;
+
+	margin: 10px;
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left;
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+/* example buttons */
+
+#button-1:hover {
+	transform: rotate(90deg) scale(1.5);
+	opacity: .3;
+}
+
+#button-1:active {
+	background: pink;
+	opacity: 1;
+}
+
+/* example buttons */
+
+#button-2::after {
+	color: white;
+}
+
+
+#button-2:hover::after {
+	content: 'YAY YOU!!';
+	color: red;
+}
+
+#button-4:hover {
+	opacity:.2;
+}
+
+#button-5:active {
+	width:10%;
+	height:10%;
+	background-color: red;
+}
+
+#button-6:active {
+	transform: rotate (33deg);
+	color: black;
+	background-color:black;
+	opacity:0.6;
+}
+
+#button-7:active {
+	transform: scale(2.4);
+	background-color: green;
+
+}
+
+#button-8:active {
+	width:23%;
+	opacity:20%;
+	background-color: red;
+}
+
+#button-9:active {
+	transform: scale(6.5);
+	width:20%;
+	opacity:0.7;
+	background-color: pink;
+}
+
+#button-10:active {
+	color:red;
+	transform: scale(6.5);
+	background-color: yellow;
+}
+
+#button-11:hover {
+	transform: rotateX(130deg) rotateY(-50deg) scale(2.5);
+	background-color: yellow;
+}
+#button-12:hover {
+	transform: scaleX(.5) skewY(40deg);
+	opacity: .3;
+}
+#button-13:hover {
+	transform: rotate(75deg) scale(.5);
+	opacity: .9;
+	background-color: red;
+}
+#button-14:hover {
+	transform: rotate(180deg) ;
+	opacity: .3;
+	background-color:green;
+}
+#button-15:hover {
+	transform: scale(.5);
+	opacity: .5;
+	background-color:red;
+}
+#button-16:hover {
+	background-position: center;
+	animation-fill-mode: forwards;
+	background-color: green;
+}
+#button-17:hover {
+	border-radius: 120px;
+	border-color: red;
+	border-style: groove;
+	border-width: thick;
+	background-color: white;
+}
+#button-18:hover {
+	transform: scale(2.5);
+	border-radius: 80px;
+	border-color: red;
+	border-style: solid;
+	border-width: 50px;
+	background-color: black;
+}
+#button-19:hover {
+	transform: scale(5);
+	background-color: purple;
+}
+#button-20:hover {
+ height:1000px;
+ width:200px;
+ background-color:red;
+}
+
+
+#button-50:hover::after {
+	content: 'FIN.';
+	font-size: 1558px;
+	color: red;
+}
+
+#button-49:active {
+	width:1000%;
+	height:1000%;
+	background-color: black;
+	opacity: 0.8;
+	transform: scale(66.5);
+}
+
+#button-47:active {
+	content: 'FIN.';
+	font-size: 1558px;
+	color: red;
+	text-align: center;
+}

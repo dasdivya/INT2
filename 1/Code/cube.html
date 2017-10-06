@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resizing Cube</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="cube.css" type="text/css" />
+</head>
+
+<body>
+  <div>
+
+ <p>  </p>
+
+	<!-- <input id="front" name="transforms" type="radio" value="front">
+	    <label for="front">ONE</label>
+
+		<input id="left" name="transforms" type="radio" value="left">
+	    <label for="left">TWO</label>
+
+	    <input id="right" name="transforms" type="radio" value="right">
+	    <label for="right">THREE</label>
+
+	    <input id="top" name="transforms" type="radio" value="top">
+	    <label for="top">FOUR</label>
+
+	    <input id="bottom" name="transforms" type="radio" value="bottom">
+	    <label for="bottom">FIVE</label>
+
+	    <input id="back" name="transforms" type="radio" value="back">
+	    <label for="back">SIX</label>  -->
+
+		<div class="container">
+			<figure class="cube">
+          <div class="front" onclick="myFunction()">HI :)
+    <span class="popuptext" id="myPopup">SLOWLY... start to play with the width and height of the browser, please! :)</span>
+  </div>
+				<div class="left"></div>
+				<div class="right"></div>
+				<div class="top"></div>
+				<div class="bottom"></div>
+				<div class="back"></div>
+			</figure>
+		</div>
+	</div>
+
+  <script>
+  // When the user clicks on div, open the popup
+  function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+  }
+  </script>
+
+</body>
+
+</html>
