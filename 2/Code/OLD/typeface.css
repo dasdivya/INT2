@@ -23,7 +23,7 @@ body{
 	border-color: white;
 	border-width: 0.001px;
 	transition: all 1500ms ease;
-	transform:scale(0.7);
+	transform:scale(1.5);
 	transition: all 1500ms ease;
 }
 
@@ -47,7 +47,7 @@ body{
 	border-color: midnightblue;
 	border-width: 0.001px;
 	transition: all 1500ms ease;
-	transform:scale(0.7);
+	transform:scale(1.18);
 	transition: all 1500ms ease;
 }
 
