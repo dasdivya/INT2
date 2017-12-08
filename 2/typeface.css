@@ -1,0 +1,1538 @@
+body{
+	background-color: black;
+}
+
+.title{
+	background-color: black;
+	top:40px;
+	left:0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 5px;
+  box-sizing: border-box;
+	background-color: black;
+}
+
+.alpha:active .container {
+	background-color: white;
+	border-style:solid;
+	border-radius: 30px 0px 30px;
+	border-color: white;
+	border-width: 0.001px;
+	transition: all 1500ms ease;
+	transform:scale(2);
+	transition: all 1500ms ease;
+	z-index: 99999999999;
+}
+
+.alpha:active .cont {
+	background-color: white;
+	border-style:solid;
+	border-radius: 30px 0px 30px;
+	border-color: white;
+	border-width: 0.001px;
+	transition: all 1500ms ease;
+	transform:scale(5);
+	transition: all 1500ms ease;
+	z-index: 99999999999;
+}
+
+.container:hover {
+	background-color: GreenYellow  ;
+	border-style:solid;
+	border-radius: 30px 0px 30px;
+	border-color: white;
+	border-width: 0.001px;
+	transition: all 1500ms ease;
+	transform:scale(2);
+	transition: all 1500ms ease;
+	z-index: 99999999999;
+}
+
+
+.containera {
+  position: relative;
+  width: 100%;
+  margin: 5px;
+  box-sizing: border-box;
+	background-color: black;
+}
+
+.cont{
+	border-width: 0px;
+}
+
+.containera:hover .cont{
+	background-color: white;
+	border-style:solid;
+	border-radius: 15px 0px 15px;
+	border-color: tomato;
+	border-width: 0.001px;
+	transition: all 1500ms ease;
+	transform:scale(1.18);
+	transition: all 1500ms ease;
+}
+
+.kyoo{
+	background-color: tomato;
+	margin: 20px;
+	padding: 5%;
+	width:290px;
+	height:290px;
+	float: left;
+	position: relative;
+}
+
+.kyoolinea{
+position: absolute;
+top: 325px;
+left: 89%;
+width: 18px;
+height: 135px;
+background-color: black;
+transform: rotate(45deg);
+}
+
+.kyoolineb{
+position: absolute;
+top: 149px;
+width: 18px;
+height: 135px;
+background-color: black;
+left: 47%;
+}
+
+.gee{
+	background-color: tomato;
+	margin: 20px;
+	padding: 5%;
+	width:290px;
+	height:290px;
+	float: left;
+	position: relative;
+}
+
+.geelinea{
+	position: absolute;
+	top: 202px;
+	width: 18px;
+	height: 135px;
+	background-color: black;
+	left: 296px;
+}
+
+.geelineb{
+	position: absolute;
+	top: 202px;
+	width: 135px;
+	height: 18px;
+	background-color: black;
+	left: 299px;
+}
+
+.jay{
+	background-color: tomato;
+	margin: 20px;
+	padding: 5%;
+	width:290px;
+	height:290px;
+	float: left;
+	position: relative;
+}
+
+.jaylinea{
+	position: absolute;
+	top: 202px;
+	width: 18px;
+	height: 135px;
+	background-color: black;
+	left: 117px;
+}
+
+.jaylineb{
+	position: absolute;
+	top: 202px;
+	width: 135px;
+	height: 18px;
+	background-color: black;
+	left: 0px;
+}
+
+.alpha{
+	background-color: tomato;
+	padding: 3%;
+	margin-top: 35%;
+	width:100;
+	margin-left: -10px;
+	position: absolute;
+}
+
+.a {
+	background-color: black;
+	margin-top: 50%;
+	margin: 3%;
+	width:140px;
+	float:left;
+	position: relative;
+	height:140px;
+	border-style:none;
+}
+
+.alinea{
+position: absolute;
+top: 40px;
+left: 34%;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.alineb{
+position: absolute;
+top: 95px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 47%;
+border-style:none;
+}
+
+.a:  .alinea {
+	border-style:solid;
+	border-radius: 10px;
+	border-color: tomato;
+	border-width: 2px;
+	transition: all 500ms ease;
+}
+
+.a:  .alineb {
+    border-style:solid;
+		border-radius: 10px;
+		border-color: tomato;
+		border-width: 2px;
+		transition: all 500ms ease;
+}
+
+.b {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.blinea{
+position: absolute;
+top: 40px;
+left: 34%;
+width: 45px;
+height: 8px;
+background-color: tomato;
+border-style:none;
+}
+
+.blineb{
+position: absolute;
+top: 95px;
+left: 34%;
+width: 45px;
+height: 8px;
+background-color: tomato;
+border-style:none;
+}
+
+.blinec{
+position: absolute;
+top:68px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+left: 95px;
+border-style:none;
+}
+
+.c {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.clinea{
+position: absolute;
+top:49px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 95px;
+}
+
+.clineb{
+position: absolute;
+top:68px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+left: 95px;
+}
+
+.d {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.dtria{
+	left:95px;
+	position: absolute;
+	width: 0;
+		height: 0;
+		border-left: 45px solid transparent;
+		border-right: 0px solid transparent;
+		border-top: 45px solid tomato;
+}
+
+.dlinea{
+position: absolute;
+top: 49px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 47%;
+}
+
+.dtrib{
+	left:95px;
+	top:95px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 45px solid tomato;
+}
+
+.e {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+margin-bottom: 0px;
+}
+
+.elinea{
+position: absolute;
+top: 40px;
+left: 95px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.elineb{
+position: absolute;
+top: 95px;
+left: 95px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+
+.f {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.flinea{
+position: absolute;
+top: 40px;
+left: 95px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.fsqa{
+position: absolute;
+top: 95px;
+left: 95px;
+width: 45px;
+height: 45px;
+background-color: tomato;
+border-width: 2px;
+border-color: tomato;
+}
+
+.g {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.glinea{
+position: absolute;
+top:68px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 95px;
+}
+
+.glineb{
+position: absolute;
+top:68px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+left: 95px;
+}
+
+
+.h {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.hlinea{
+position: absolute;
+top: 0px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 47%;
+}
+
+.hlineb{
+position: absolute;
+top: 95px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 47%;
+}
+
+.i {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+margin-bottom: 0px;
+}
+
+.ilinea{
+position: absolute;
+top: 68px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.ilineb{
+	position: absolute;
+	top: 68px;
+	width: 45px;
+	height: 8px;
+	background-color: tomato;
+	left:95px;
+}
+
+.j {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+margin-bottom: 0px;
+}
+
+.jlinea{
+position: absolute;
+top:68px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 37px;
+}
+
+.jlineb{
+position: absolute;
+top:68px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+left: 0px;
+}
+
+.k {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.klinea{
+	position: absolute;
+	top: 95px;
+	width: 8px;
+	height: 45px;
+	background-color: tomato;
+	left: 47%;
+}
+
+.klineb{
+	position: absolute;
+	top: 0px;
+	width: 8px;
+	height: 45px;
+	background-color: tomato;
+	left: 47%;
+}
+
+.ktria{
+	left: 118px;
+  top: 47px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 45px solid tomato;
+  transform:rotate(225deg);
+}
+
+.l {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.lsqa{
+position: absolute;
+top: 0px;
+left: 95px;
+width: 45px;
+height: 45px;
+background-color: tomato;
+}
+
+.m {
+	background-color: black;
+	margin-top: 50%;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.mtria{
+	position: absolute;
+	top:-23px;
+	left:47px;
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 45px solid tomato;
+  transform:rotate(135deg);
+}
+
+.mlinea{
+	position: absolute;
+	top: 95px;
+	width: 8px;
+	height: 45px;
+	background-color: tomato;
+	left: 37px;
+}
+
+.mlineb{
+	position: absolute;
+	top: 95px;
+	width: 8px;
+	height: 45px;
+	background-color: tomato;
+	left: 95px;
+}
+
+.n {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.nlinea{
+	position: absolute;
+	top: 95px;
+	width: 8px;
+	height: 45px;
+	background-color: tomato;
+	left: 37px;
+}
+
+.nlineb{
+	position: absolute;
+	top: 0px;
+	width: 8px;
+	height: 45px;
+	background-color: tomato;
+	left: 95px;
+}
+
+.o {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.olinea{
+position: absolute;
+top: 49px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 47%;
+}
+
+.p {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.plinea{
+position: absolute;
+top: 40px;
+left: 34%;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.psqa{
+position: absolute;
+top: 95px;
+left: 95px;
+width: 45px;
+height: 45px;
+background-color: tomato;
+}
+
+.q {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.qlinea{
+position: absolute;
+top: 123px;
+left: 75%;
+width: 45px;
+height: 8px;
+background-color: tomato;
+transform: rotate(135deg);
+border-color: tomato;
+}
+
+.qlineb{
+position: absolute;
+top: 49px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 47%;
+border-color: tomato;
+}
+
+
+.r {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.rlinea{
+	position: absolute;
+	top: 95px;
+	width: 8px;
+	height: 45px;
+	background-color: tomato;
+	left: 47%;
+}
+
+.rlineb{
+	position: absolute;
+	top: 40px;
+	left: 34%;
+	width: 45px;
+	height: 8px;
+	background-color: tomato;
+}
+
+.rtria{
+	left: 118px;
+  top: 47px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 45px solid tomato;
+  transform:rotate(225deg);
+}
+
+.s {
+	background-color: black;
+	margin-top: 50%;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.slinea{
+position: absolute;
+top: 40px;
+left: 95px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.slineb{
+position: absolute;
+top: 95px;
+left: 0px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.stria{
+	left: 0px;
+  top: 0px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 45px solid transparent;
+	border-top: 45px solid tomato;
+}
+
+.t {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.tsqa{
+position: absolute;
+top: 95px;
+left: 0px;
+width: 45px;
+height: 45px;
+background-color: tomato;
+}
+
+.tsqb{
+position: absolute;
+top: 95px;
+left: 95px;
+width: 45px;
+height: 45px;
+background-color: tomato;
+}
+
+.u {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.ulinea{
+position: absolute;
+top: 0px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 47%;
+}
+
+.v {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.vlinea{
+position: absolute;
+top: 0px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 47%;
+}
+
+.vtria{
+	left: 95px;
+  top: 95px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 0px solid black;
+	border-bottom: 45px solid tomato;
+}
+
+.vtrib{
+	left: 0px;
+  top: 95px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 45px solid transparent;
+	border-bottom: 45px solid tomato;
+}
+
+.w {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.wtria{
+	position: absolute;
+	top: 118px;
+	left: 47px;
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 45px solid tomato;
+  transform:rotate(315deg);
+}
+
+.wlinea{
+	position: absolute;
+	top: 0px;
+	width: 8px;
+	height: 45px;
+	background-color: tomato;
+	left: 37px;
+}
+
+.wlineb{
+	position: absolute;
+	top: 0px;
+	width: 8px;
+	height: 45px;
+	background-color: tomato;
+	left: 95px;
+}
+
+.x {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.xlinea{
+position: absolute;
+top: 0px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 47%;
+}
+
+.xlineb{
+position: absolute;
+top: 95px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 47%;
+}
+
+.xlinec{
+position: absolute;
+top: 68px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.xlined{
+	position: absolute;
+	top: 68px;
+	width: 45px;
+	height: 8px;
+	background-color: tomato;
+	left:95px;
+}
+
+.y {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.ylinea{
+position: absolute;
+top: 0px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 47%;
+}
+
+.ytria{
+	position: absolute;
+	top: 95px;
+	left: 0px;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 45px solid transparent;
+	border-top: 45px solid tomato;
+}
+
+.z {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.ztria{
+	position: absolute;
+	top: 45px;
+	left: 0px;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 45px solid transparent;
+	border-top: 45px solid tomato;
+}
+
+.ztrib{
+	left: 95px;
+  top: 45px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 0px solid black;
+	border-bottom: 45px solid tomato;
+}
+
+.zero {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.zerolinea{
+position: absolute;
+top: 49px;
+width: 8px;
+height: 45px;
+background-color: tomato;
+left: 47%;
+}
+
+.zerotrib{
+	left: 0px;
+  top: 95px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 45px solid transparent;
+	border-bottom: 45px solid tomato;
+}
+
+.zerotria{
+	left:95px;
+	position: absolute;
+	width: 0;
+		height: 0;
+		border-left: 45px solid transparent;
+		border-right: 0px solid transparent;
+		border-top: 45px solid tomato;
+}
+
+.zerotrib{
+	left: 0px;
+  top: 95px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 45px solid transparent;
+	border-bottom: 45px solid tomato;
+}
+
+.one {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.onesqa{
+position: absolute;
+top: 95px;
+left: 0px;
+width: 45px;
+height: 45px;
+background-color: tomato;
+}
+
+.onetria{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 0px solid black;
+	border-bottom: 45px solid tomato;
+}
+
+.two {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.twolinea{
+position: absolute;
+top: 40px;
+left: 0px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.twolineb{
+position: absolute;
+top: 95px;
+left: 95px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.twotria{
+	left:95px;
+	position: absolute;
+	width: 0;
+		height: 0;
+		border-left: 45px solid transparent;
+		border-right: 0px solid transparent;
+		border-top: 45px solid tomato;
+}
+
+.three {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.threelinea{
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	width: 45px;
+	height: 8px;
+	background-color: tomato;
+	}
+
+	.threelineb{
+	position: absolute;
+	top: 95px;
+	left: 0px;
+	width: 45px;
+	height: 8px;
+	background-color: tomato;
+	}
+
+.threetria{
+	left: 118px;
+  top: 47px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 45px solid tomato;
+  transform:rotate(225deg);
+}
+
+.four {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.foursqa {
+    position: absolute;
+    top: 95px;
+    left: 0px;
+    width: 45px;
+    height: 45px;
+    background-color: tomato;
+}
+
+.fourlinea {
+    position: absolute;
+    top: 0px;
+    width: 8px;
+    height: 45px;
+    background-color: tomato;
+    left: 47%;
+}
+
+.fourtria {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 45px solid transparent;
+    border-top: 45px solid tomato;
+}
+
+.five {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.fivelinea{
+position: absolute;
+top: 40px;
+left: 95px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.fivelineb{
+position: absolute;
+top: 95px;
+left: 0px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.six {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.sixlinea{
+position: absolute;
+top: 40px;
+left: 95px;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.sixlineb{
+    position: absolute;
+    top: 95px;
+    left: 34%;
+    width: 45px;
+    height: 8px;
+    background-color: tomato;
+	}
+
+.seven {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.seventria{
+	position: absolute;
+	top: 45px;
+	left: 0px;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 45px solid transparent;
+	border-top: 45px solid tomato;
+}
+
+.seventrib{
+	left: 95px;
+  top: 95px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 0px solid black;
+	border-bottom: 45px solid tomato;
+}
+
+.eight {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.eightlinea{
+position: absolute;
+top: 40px;
+left: 34%;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.eightlineb{
+position: absolute;
+top: 95px;
+left: 34%;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.nine {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.ninelinea{
+position: absolute;
+top: 40px;
+left: 34%;
+width: 45px;
+height: 8px;
+background-color: tomato;
+}
+
+.ninelineb{
+    position: absolute;
+    top: 95px;
+    left: 0;
+    width: 45px;
+    height: 8px;
+    background-color: tomato;
+	}
+
+.ques {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.queslineb{
+    position: absolute;
+    top: 95px;
+    left: 0;
+    width: 140px;
+    height: 8px;
+    background-color: tomato;
+	}
+
+	.queslinea {
+	    position: absolute;
+	    top: 40px;
+	    left: 0px;
+	    width: 45px;
+	    height: 8px;
+	    background-color: tomato;
+	}
+
+	.quessqa{
+	position: absolute;
+	top: 95px;
+	left: 95px;
+	width: 45px;
+	height: 45px;
+	background-color: tomato;
+	}
+
+.ex {
+	background-color: black;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.exlinea{
+    position: absolute;
+    top: 95px;
+    left: 0;
+    width: 140px;
+    height: 8px;
+    background-color: tomato;
+	}
+
+.per {
+	background-color: tomato;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.persq {
+    position: absolute;
+    top: 95px;
+    left: 0px;
+    width: 45px;
+    height: 45px;
+    background-color: black;
+}
+
+.com {
+	background-color: tomato;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.comsq {
+    position: absolute;
+    top: 95px;
+    left: 0px;
+    width: 45px;
+    height: 45px;
+    background-color: black;
+}
+
+.comtria{
+	position: absolute;
+	top: 30px;
+	left: -1px;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid tomato;
+}
+
+.comtrib{
+	left: 31px;
+  top: 30px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 0px solid black;
+	border-bottom: 15px solid tomato;
+}
+
+.quoo {
+	background-color: tomato;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.quoosq {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 45px;
+    height: 45px;
+    background-color: black;
+}
+
+.quoosqa{
+	left: 31px;
+  top: 0px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 0px solid black;
+	border-bottom: 15px solid tomato;
+}
+
+.quoosqsq {
+    position: absolute;
+    top: 0px;
+    left: 55px;
+    width: 45px;
+    height: 45px;
+    background-color: black;
+}
+
+.quoosqsqa{
+	left: 31px;
+  top: 0px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 0px solid black;
+	border-bottom: 15px solid tomato;
+}
+
+.quoc {
+	background-color: tomato;
+	margin: 3%;
+	width:140px;
+	height:140px;
+	float:left;
+	position: relative;
+}
+
+.quocsq {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    width: 45px;
+    height: 45px;
+    background-color: black;
+}
+
+.quocsqa {
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid tomato;
+}
+
+.quocsqsq {
+    position: absolute;
+    top: 0px;
+    left: 95px;
+    width: 45px;
+    height: 45px;
+    background-color: black;
+}
+
+.quocsqsqa {
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid tomato;
+}
