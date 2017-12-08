@@ -1,0 +1,241 @@
+body{
+  margin:0;
+  border: none;
+  z-index: -999;
+}
+
+.land img{
+  position:fixed;
+  width:100%;
+  height:100vh;
+  border: none;
+  z-index:-1;
+}
+
+
+.info{
+  font-size: 2.5vw;
+font-family: baskerville, serif;
+position:absolute;
+color:#7c7532;
+top:1%;
+left:2%;
+letter-spacing:2px;
+z-index:999;
+line-height: 140%;
+}
+
+
+#panel, #flip {
+    padding: 5px;
+}
+
+#panel {
+    display: none;
+    margin:0;
+    width:100%;
+    background-color:white;
+    position:relative;
+    z-index: -1;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 81%;
+    margin-top: 33%;
+    -moz-animation: bounce 2s 2;
+	-webkit-animation: bounce 2s 2;
+	animation: bounce 2s 2;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+
+  }
+}
+
+
+@-webkit-keyframes bg {
+  0%   { background: white; }
+  50% { background: #7c7532; }
+}
+@-moz-keyframes bg {
+  0%   { background: white; }
+  50% { background: #7c7532; }
+}
+@-o-keyframes bg {
+  0%   { background: white; }
+  50% { background: #7c7532; }
+}
+@keyframes bg {
+  0%   { background: white; }
+  50% { background: #7c7532; }
+}
+
+
+.bar1{
+  width: 1.7vw;
+  height: 0.5vh;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.2s;
+  transform: rotate(45deg) translate(17.5px);
+  -webkit-animation: bg 2s 2 alternate;
+  -moz-animation: bg 2s 2 alternate;
+  -o-animation: bg 2s 2 alternate;
+  animation: bg 2s 2 alternate;
+}
+.bar3{
+  width: 1.7vw;
+  height: 0.5vh;
+  background-color: white;
+  margin: 0px 0;
+  transition: 0.2s;
+  transform: rotate(-45deg) translate(-4.5px);
+  top:2px;
+  -webkit-animation: bg 2s 2 alternate;
+  -moz-animation: bg 2s 2 alternate;
+  -o-animation: bg 2s 2 alternate;
+  animation: bg 2s 2 alternate;
+}
+
+.change .bar1 {
+    -webkit-transform:rotate(-45deg)translate(4px, 18px);
+    transform: rotate(-45deg) translate(4px, 18px);
+    background-color: black;
+}
+.change .bar3 {
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg) ;
+    background-color: black;
+}
+
+
+.about{
+  margin:0;
+  width:100%;
+  background-color:white;
+  position:absolute;
+  top:0px;
+  z-index: -1;
+}
+
+.title{
+  position: absolute;
+  font-size:3.2vw;
+  font-family:baskerville,serif;
+  color:black;
+  top:50%;
+  left:70%;
+  letter-spacing:2px;
+  z-index:999;
+}
+
+
+.ph {
+  height: 24vh;
+  opacity:0.3;
+  position: relative;
+  top:100vh;
+  z-index: 10000;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  filter:invert(200%);
+}
+
+.ph:hover {
+  opacity:1;
+  filter:invert(0%);
+  z-index: 99999999;
+}
+
+.ph:active {
+  opacity:1;
+  transform: scale(3);
+  filter:invert(0%);
+  z-index: 99999999;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+}
+
+#zero{
+  font-size: 6.9vw;
+  font-family: baskerville, serif;
+  position:absolute;
+  color:black;
+  top:1%;
+  left:2%;
+  letter-spacing:3.5px;
+  z-index:999;
+  line-height: 140%;
+  float:left;
+  position: absolute;
+  top:79.6vh;
+  left:52vw;
+}
+
+
+#six{
+  font-size: 2.5vw;
+  font-family: baskerville, serif;
+  position:absolute;
+  color:#7c7532;
+  top:1%;
+  left:2%;
+  letter-spacing:3.5px;
+  z-index:999;
+  line-height: 140%;
+  float:left;
+  position: absolute;
+  top:195vh;
+  padding:6%;
+  left:-0.1vw;
+  text-align: center;
+}

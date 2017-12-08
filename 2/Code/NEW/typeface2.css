@@ -9,7 +9,7 @@ body{
 }
 
 .container {
-	position: relative;
+  position: relative;
   width: 100%;
   margin: 5px;
   box-sizing: border-box;
@@ -17,15 +17,17 @@ body{
 }
 
 
-
 .container:hover {
-	background-color: #EAA813;
+	background-color: white;
 	border-style:solid;
 	border-radius: 30px 0px 30px;
-	border-color: #EAA813;
-	border-width: 0.1px;
+	border-color: white;
+	border-width: 0.001px;
+	transition: all 1500ms ease;
+	transform:scale(1.5);
 	transition: all 1500ms ease;
 }
+
 
 .containera {
   position: relative;
@@ -35,58 +37,18 @@ body{
 	background-color: Orangered;
 }
 
-.sqbl{
-	position: absolute;
-	top: 95px;
-	left: 0px;
-	width: 45px;
-	height: 45px;
-	background-color: midnightblue;
-	border-color: midnightblue;
+.cont{
+	border-width: 0px;
 }
 
-.container:hover .sqbl {
+.containera:hover .cont{
+	background-color: white;
 	border-style:solid;
-	border-radius: 0px;
+	border-radius: 15px 0px 15px;
 	border-color: midnightblue;
-	border-width: 2px;
+	border-width: 0.001px;
 	transition: all 1500ms ease;
-}
-
-.sqbr{
-	position: absolute;
-	top: 95px;
-	left: 95px;
-	width: 45px;
-	height: 45px;
-	background-color: midnightblue;
-	border-width: 2px;
-	border-color: midnightblue;
-}
-
-.container:hover .sqbr {
-	border-style:solid;
-	border-radius: 0px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.sqtr{
-	position: absolute;
-	top: 0px;
-	left: 95px;
-	width: 45px;
-	height: 45px;
-	background-color: midnightblue;
-	border-color: midnightblue;
-}
-
-.container:hover .sqtr {
-	border-style:solid;
-	border-radius: 0px;
-	border-color: midnightblue;
-	border-width: 2px;
+	transform:scale(1.18);
 	transition: all 1500ms ease;
 }
 
@@ -214,7 +176,7 @@ left: 47%;
 border-style:none;
 }
 
-.a:hover .alinea {
+.a:  .alinea {
 	border-style:solid;
 	border-radius: 10px;
 	border-color: midnightblue;
@@ -222,7 +184,7 @@ border-style:none;
 	transition: all 500ms ease;
 }
 
-.a:hover .alineb {
+.a:  .alineb {
     border-style:solid;
 		border-radius: 10px;
 		border-color: midnightblue;
@@ -269,30 +231,6 @@ left: 95px;
 border-style:none;
 }
 
-.b:hover .blinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.b:hover .blineb {
-    border-style:solid;
-		border-radius: 10px;
-		border-color: midnightblue;
-		border-width: 2px;
-		transition: all 1500ms ease;
-}
-
-.b:hover .blinec {
-    border-style:solid;
-		border-radius: 10px;
-		border-color: midnightblue;
-		border-width: 2px;
-		transition: all 1500ms ease;
-}
-
 .c {
 	background-color: orangered;
 	margin: 3%;
@@ -318,22 +256,6 @@ width: 45px;
 height: 8px;
 background-color: midnightblue;
 left: 95px;
-}
-
-.c:hover .clinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.c:hover .clineb {
-    border-style:solid;
-		border-radius: 10px;
-		border-color: midnightblue;
-		border-width: 2px;
-		transition: all 1500ms ease;
 }
 
 .d {
@@ -375,31 +297,6 @@ left: 47%;
 	border-bottom: 45px solid midnightblue;
 }
 
-
-.d:hover .dlinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.d:hover .dtrib {
-	border-style:solid;
-	border-radius: 130px 130px 130px;
-	border-color: #EAA813;
-	border-width: 0.5px;
-	transition: all 50ms ease;
-}
-
-.d:hover .dtria {
-	border-style:solid;
-	border-radius: 130px 130px 130px;
-	border-color: #EAA813;
-	border-width: 0.5px;
-	transition: all 50ms ease;
-}
-
 .e {
 	background-color: orangered;
 	margin: 3%;
@@ -428,21 +325,6 @@ height: 8px;
 background-color: midnightblue;
 }
 
-.e:hover .elinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.e:hover .elineb {
-    border-style:solid;
-		border-radius: 10px;
-		border-color: midnightblue;
-		border-width: 2px;
-		transition: all 1500ms ease;
-}
 
 .f {
 	background-color: orangered;
@@ -473,30 +355,6 @@ border-width: 2px;
 border-color: midnightblue;
 }
 
-.f:hover .flinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.f:hover .fsqa {
-	border-style:solid;
-	border-radius: 0px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.e:hover .elineb {
-    border-style:solid;
-		border-radius: 10px;
-		border-color: midnightblue;
-		border-width: 2px;
-		transition: all 1500ms ease;
-}
-
 .g {
 	background-color: orangered;
 	margin: 3%;
@@ -524,21 +382,6 @@ background-color: midnightblue;
 left: 95px;
 }
 
-.g:hover .glinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.g:hover .glineb {
-    border-style:solid;
-		border-radius: 10px;
-		border-color: midnightblue;
-		border-width: 2px;
-		transition: all 1500ms ease;
-}
 
 .h {
 	background-color: orangered;
@@ -567,25 +410,6 @@ background-color: midnightblue;
 left: 47%;
 }
 
-.h:hover .hlinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-	height: 48px;
-	top:-3px;
-}
-
-.h:hover .hlineb {
-    border-style:solid;
-		border-radius: 10px;
-		border-color: midnightblue;
-		border-width: 2px;
-		transition: all 1500ms ease;
-		height: 48px;
-	}
-
 .i {
 	background-color: orangered;
 	margin: 3%;
@@ -613,24 +437,6 @@ background-color: midnightblue;
 	left:95px;
 }
 
-.i:hover .ilinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-	left:-3px;
-	width:48px;
-}
-
-.i:hover .ilineb {
-    border-style:solid;
-		border-radius: 10px;
-		border-color: midnightblue;
-		border-width: 2px;
-		transition: all 1500ms ease;
-	}
-
 .j {
 	background-color: orangered;
 	margin: 3%;
@@ -657,24 +463,6 @@ width: 45px;
 height: 8px;
 background-color: midnightblue;
 left: 0px;
-}
-
-.j:hover .jlinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.j:hover .jlineb {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-	left:-5px;
-	width:48px;
 }
 
 .k {
@@ -714,33 +502,6 @@ left: 0px;
 	border-right: 0px solid transparent;
 	border-top: 45px solid midnightblue;
   transform:rotate(225deg);
-}
-
-.k:hover .klinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.k:hover .klineb {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-	top:-3px;
-	height:48px;
-}
-
-.k:hover .ktria {
-	border-style:solid;
-	border-color: midnightblue;
-	transition: all 15ms ease;
-	border-left: 48px solid transparent;
-	border-right: 0px solid transparent;
-	border-top: 48px solid midnightblue;
 }
 
 .l {
@@ -828,24 +589,6 @@ background-color: midnightblue;
 	left: 95px;
 }
 
-.n:hover .nlinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.n:hover .nlineb {
-		top:-3px;
-		height:48px;
-    border-style:solid;
-		border-radius: 10px;
-		border-color: midnightblue;
-		border-width: 2px;
-		transition: all 1500ms ease;
-}
-
 .o {
 	background-color: orangered;
 	margin: 3%;
@@ -862,14 +605,6 @@ width: 8px;
 height: 45px;
 background-color: midnightblue;
 left: 47%;
-}
-
-.o:hover .olinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
 }
 
 .p {
@@ -916,6 +651,7 @@ width: 45px;
 height: 8px;
 background-color: midnightblue;
 transform: rotate(135deg);
+border-color: midnightblue;
 }
 
 .qlineb{
@@ -925,21 +661,14 @@ width: 8px;
 height: 45px;
 background-color: midnightblue;
 left: 47%;
+border-color: midnightblue;
 }
 
-.q:hover .qlinea {
+.q:hover  .qlinea {
 	top:104px;
 	left: 55%;
 	width: 95px;
 	height: 8px;
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.q:hover .qlineb {
 	border-style:solid;
 	border-radius: 10px;
 	border-color: midnightblue;
@@ -1070,16 +799,6 @@ background-color: midnightblue;
 left: 47%;
 }
 
-.u:hover .ulinea {
-	top:-3px;
-	height:48px;
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
 .v {
 	background-color: orangered;
 	margin: 3%;
@@ -1201,42 +920,6 @@ background-color: midnightblue;
 	height: 8px;
 	background-color: midnightblue;
 	left:95px;
-}
-
-.x:hover .xlinea {
-	top:-3px;
-	height:48px;
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.x:hover .xlineb {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.x:hover .xlinec {
-	left:-3px;
-	width:48px;
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.x:hover .xlined {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
 }
 
 .y {
@@ -1519,24 +1202,6 @@ height: 8px;
 background-color: midnightblue;
 }
 
-.five:hover .fivelinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.five:hover .fivelineb {
-	left:-3px;
-	width:48px;
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
 .six {
 	background-color: orangered;
 	margin: 3%;
@@ -1562,22 +1227,6 @@ background-color: midnightblue;
     width: 45px;
     height: 8px;
     background-color: midnightblue;
-	}
-
-	.six:hover .sixlinea {
-		border-style:solid;
-		border-radius: 10px;
-		border-color: midnightblue;
-		border-width: 2px;
-		transition: all 1500ms ease;
-	}
-
-	.six:hover .sixlineb {
-		border-style:solid;
-		border-radius: 10px;
-		border-color: midnightblue;
-		border-width: 2px;
-		transition: all 1500ms ease;
 	}
 
 .seven {
@@ -1638,22 +1287,6 @@ height: 8px;
 background-color: midnightblue;
 }
 
-.eight:hover .eightlinea {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
-.eight:hover .eightlineb {
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
-
 .nine {
 	background-color: orangered;
 	margin: 3%;
@@ -1680,7 +1313,6 @@ background-color: midnightblue;
     height: 8px;
     background-color: midnightblue;
 	}
-
 
 .ques {
 	background-color: orangered;
@@ -1775,7 +1407,7 @@ background-color: midnightblue;
 .comtria{
 	position: absolute;
 	top: 30px;
-	left: 0px;
+	left: -1px;
 	width: 0;
 	height: 0;
 	border-left: 0px solid transparent;
@@ -1784,7 +1416,7 @@ background-color: midnightblue;
 }
 
 .comtrib{
-	left: 30px;
+	left: 31px;
   top: 30px;
 	position: absolute;
 	width: 0;
@@ -1813,7 +1445,7 @@ background-color: midnightblue;
 }
 
 .quoosqa{
-	left: 30px;
+	left: 31px;
   top: 0px;
 	position: absolute;
 	width: 0;
@@ -1833,7 +1465,7 @@ background-color: midnightblue;
 }
 
 .quoosqsqa{
-	left: 30px;
+	left: 31px;
   top: 0px;
 	position: absolute;
 	width: 0;
@@ -1864,7 +1496,7 @@ background-color: midnightblue;
 .quocsqa {
     position: absolute;
     top: 30px;
-    left: 0px;
+    left: -1px;
     width: 0;
     height: 0;
     border-left: 0px solid transparent;
@@ -1884,7 +1516,7 @@ background-color: midnightblue;
 .quocsqsqa {
     position: absolute;
     top: 30px;
-    left: 0px;
+    left: -1px;
     width: 0;
     height: 0;
     border-left: 0px solid transparent;

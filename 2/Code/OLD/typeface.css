@@ -1,9 +1,9 @@
 body{
-	background-color: Orangered;
+	background-color: black;
 }
 
 .title{
-	background-color: Orangered;
+	background-color: black;
 	top:40px;
 	left:0;
 }
@@ -13,18 +13,43 @@ body{
   width: 100%;
   margin: 5px;
   box-sizing: border-box;
-	background-color: Orangered;
+	background-color: black;
 }
 
-.container:hover {
+.alpha:active .container {
 	background-color: white;
 	border-style:solid;
 	border-radius: 30px 0px 30px;
 	border-color: white;
 	border-width: 0.001px;
 	transition: all 1500ms ease;
-	transform:scale(1.5);
+	transform:scale(2);
 	transition: all 1500ms ease;
+	z-index: 99999999999;
+}
+
+.alpha:active .cont {
+	background-color: white;
+	border-style:solid;
+	border-radius: 30px 0px 30px;
+	border-color: white;
+	border-width: 0.001px;
+	transition: all 1500ms ease;
+	transform:scale(5);
+	transition: all 1500ms ease;
+	z-index: 99999999999;
+}
+
+.container:hover {
+	background-color: GreenYellow  ;
+	border-style:solid;
+	border-radius: 30px 0px 30px;
+	border-color: white;
+	border-width: 0.001px;
+	transition: all 1500ms ease;
+	transform:scale(2);
+	transition: all 1500ms ease;
+	z-index: 99999999999;
 }
 
 
@@ -33,7 +58,7 @@ body{
   width: 100%;
   margin: 5px;
   box-sizing: border-box;
-	background-color: Orangered;
+	background-color: black;
 }
 
 .cont{
@@ -44,7 +69,7 @@ body{
 	background-color: white;
 	border-style:solid;
 	border-radius: 15px 0px 15px;
-	border-color: midnightblue;
+	border-color: tomato;
 	border-width: 0.001px;
 	transition: all 1500ms ease;
 	transform:scale(1.18);
@@ -52,7 +77,7 @@ body{
 }
 
 .kyoo{
-	background-color: midnightblue;
+	background-color: tomato;
 	margin: 20px;
 	padding: 5%;
 	width:290px;
@@ -67,7 +92,7 @@ top: 325px;
 left: 89%;
 width: 18px;
 height: 135px;
-background-color: orangered;
+background-color: black;
 transform: rotate(45deg);
 }
 
@@ -76,12 +101,12 @@ position: absolute;
 top: 149px;
 width: 18px;
 height: 135px;
-background-color: orangered;
+background-color: black;
 left: 47%;
 }
 
 .gee{
-	background-color: midnightblue;
+	background-color: tomato;
 	margin: 20px;
 	padding: 5%;
 	width:290px;
@@ -95,7 +120,7 @@ left: 47%;
 	top: 202px;
 	width: 18px;
 	height: 135px;
-	background-color: orangered;
+	background-color: black;
 	left: 296px;
 }
 
@@ -104,12 +129,12 @@ left: 47%;
 	top: 202px;
 	width: 135px;
 	height: 18px;
-	background-color: orangered;
+	background-color: black;
 	left: 299px;
 }
 
 .jay{
-	background-color: midnightblue;
+	background-color: tomato;
 	margin: 20px;
 	padding: 5%;
 	width:290px;
@@ -123,7 +148,7 @@ left: 47%;
 	top: 202px;
 	width: 18px;
 	height: 135px;
-	background-color: orangered;
+	background-color: black;
 	left: 117px;
 }
 
@@ -132,12 +157,12 @@ left: 47%;
 	top: 202px;
 	width: 135px;
 	height: 18px;
-	background-color: orangered;
+	background-color: black;
 	left: 0px;
 }
 
 .alpha{
-	background-color: midnightblue;
+	background-color: tomato;
 	padding: 3%;
 	margin-top: 35%;
 	width:100;
@@ -146,7 +171,7 @@ left: 47%;
 }
 
 .a {
-	background-color: orangered;
+	background-color: black;
 	margin-top: 50%;
 	margin: 3%;
 	width:140px;
@@ -162,7 +187,7 @@ top: 40px;
 left: 34%;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .alineb{
@@ -170,7 +195,7 @@ position: absolute;
 top: 95px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 47%;
 border-style:none;
 }
@@ -178,7 +203,7 @@ border-style:none;
 .a:  .alinea {
 	border-style:solid;
 	border-radius: 10px;
-	border-color: midnightblue;
+	border-color: tomato;
 	border-width: 2px;
 	transition: all 500ms ease;
 }
@@ -186,13 +211,13 @@ border-style:none;
 .a:  .alineb {
     border-style:solid;
 		border-radius: 10px;
-		border-color: midnightblue;
+		border-color: tomato;
 		border-width: 2px;
 		transition: all 500ms ease;
 }
 
 .b {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -206,7 +231,7 @@ top: 40px;
 left: 34%;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 border-style:none;
 }
 
@@ -216,7 +241,7 @@ top: 95px;
 left: 34%;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 border-style:none;
 }
 
@@ -225,13 +250,13 @@ position: absolute;
 top:68px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 left: 95px;
 border-style:none;
 }
 
 .c {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -244,7 +269,7 @@ position: absolute;
 top:49px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 95px;
 }
 
@@ -253,12 +278,12 @@ position: absolute;
 top:68px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 left: 95px;
 }
 
 .d {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -273,7 +298,7 @@ left: 95px;
 		height: 0;
 		border-left: 45px solid transparent;
 		border-right: 0px solid transparent;
-		border-top: 45px solid midnightblue;
+		border-top: 45px solid tomato;
 }
 
 .dlinea{
@@ -281,7 +306,7 @@ position: absolute;
 top: 49px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 47%;
 }
 
@@ -293,11 +318,11 @@ left: 47%;
 	height: 0;
 	border-left: 45px solid transparent;
 	border-right: 0px solid transparent;
-	border-bottom: 45px solid midnightblue;
+	border-bottom: 45px solid tomato;
 }
 
 .e {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -312,7 +337,7 @@ top: 40px;
 left: 95px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .elineb{
@@ -321,12 +346,12 @@ top: 95px;
 left: 95px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 
 .f {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -340,7 +365,7 @@ top: 40px;
 left: 95px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .fsqa{
@@ -349,13 +374,13 @@ top: 95px;
 left: 95px;
 width: 45px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 border-width: 2px;
-border-color: midnightblue;
+border-color: tomato;
 }
 
 .g {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -368,7 +393,7 @@ position: absolute;
 top:68px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 95px;
 }
 
@@ -377,13 +402,13 @@ position: absolute;
 top:68px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 left: 95px;
 }
 
 
 .h {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -396,7 +421,7 @@ position: absolute;
 top: 0px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 47%;
 }
 
@@ -405,12 +430,12 @@ position: absolute;
 top: 95px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 47%;
 }
 
 .i {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -424,7 +449,7 @@ position: absolute;
 top: 68px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .ilineb{
@@ -432,12 +457,12 @@ background-color: midnightblue;
 	top: 68px;
 	width: 45px;
 	height: 8px;
-	background-color: midnightblue;
+	background-color: tomato;
 	left:95px;
 }
 
 .j {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -451,7 +476,7 @@ position: absolute;
 top:68px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 37px;
 }
 
@@ -460,12 +485,12 @@ position: absolute;
 top:68px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 left: 0px;
 }
 
 .k {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -478,7 +503,7 @@ left: 0px;
 	top: 95px;
 	width: 8px;
 	height: 45px;
-	background-color: midnightblue;
+	background-color: tomato;
 	left: 47%;
 }
 
@@ -487,7 +512,7 @@ left: 0px;
 	top: 0px;
 	width: 8px;
 	height: 45px;
-	background-color: midnightblue;
+	background-color: tomato;
 	left: 47%;
 }
 
@@ -499,12 +524,12 @@ left: 0px;
 	height: 0;
 	border-left: 45px solid transparent;
 	border-right: 0px solid transparent;
-	border-top: 45px solid midnightblue;
+	border-top: 45px solid tomato;
   transform:rotate(225deg);
 }
 
 .l {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -518,11 +543,11 @@ top: 0px;
 left: 95px;
 width: 45px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .m {
-	background-color: orangered;
+	background-color: black;
 	margin-top: 50%;
 	margin: 3%;
 	width:140px;
@@ -539,7 +564,7 @@ background-color: midnightblue;
 	height: 0;
 	border-left: 45px solid transparent;
 	border-right: 0px solid transparent;
-	border-top: 45px solid midnightblue;
+	border-top: 45px solid tomato;
   transform:rotate(135deg);
 }
 
@@ -548,7 +573,7 @@ background-color: midnightblue;
 	top: 95px;
 	width: 8px;
 	height: 45px;
-	background-color: midnightblue;
+	background-color: tomato;
 	left: 37px;
 }
 
@@ -557,12 +582,12 @@ background-color: midnightblue;
 	top: 95px;
 	width: 8px;
 	height: 45px;
-	background-color: midnightblue;
+	background-color: tomato;
 	left: 95px;
 }
 
 .n {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -575,7 +600,7 @@ background-color: midnightblue;
 	top: 95px;
 	width: 8px;
 	height: 45px;
-	background-color: midnightblue;
+	background-color: tomato;
 	left: 37px;
 }
 
@@ -584,12 +609,12 @@ background-color: midnightblue;
 	top: 0px;
 	width: 8px;
 	height: 45px;
-	background-color: midnightblue;
+	background-color: tomato;
 	left: 95px;
 }
 
 .o {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -602,12 +627,12 @@ position: absolute;
 top: 49px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 47%;
 }
 
 .p {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -621,7 +646,7 @@ top: 40px;
 left: 34%;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .psqa{
@@ -630,11 +655,11 @@ top: 95px;
 left: 95px;
 width: 45px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .q {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -648,9 +673,9 @@ top: 123px;
 left: 75%;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 transform: rotate(135deg);
-border-color: midnightblue;
+border-color: tomato;
 }
 
 .qlineb{
@@ -658,25 +683,14 @@ position: absolute;
 top: 49px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 47%;
-border-color: midnightblue;
+border-color: tomato;
 }
 
-.q:hover  .qlinea {
-	top:104px;
-	left: 55%;
-	width: 95px;
-	height: 8px;
-	border-style:solid;
-	border-radius: 10px;
-	border-color: midnightblue;
-	border-width: 2px;
-	transition: all 1500ms ease;
-}
 
 .r {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -689,7 +703,7 @@ border-color: midnightblue;
 	top: 95px;
 	width: 8px;
 	height: 45px;
-	background-color: midnightblue;
+	background-color: tomato;
 	left: 47%;
 }
 
@@ -699,7 +713,7 @@ border-color: midnightblue;
 	left: 34%;
 	width: 45px;
 	height: 8px;
-	background-color: midnightblue;
+	background-color: tomato;
 }
 
 .rtria{
@@ -710,12 +724,12 @@ border-color: midnightblue;
 	height: 0;
 	border-left: 45px solid transparent;
 	border-right: 0px solid transparent;
-	border-top: 45px solid midnightblue;
+	border-top: 45px solid tomato;
   transform:rotate(225deg);
 }
 
 .s {
-	background-color: orangered;
+	background-color: black;
 	margin-top: 50%;
 	margin: 3%;
 	width:140px;
@@ -730,7 +744,7 @@ top: 40px;
 left: 95px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .slineb{
@@ -739,7 +753,7 @@ top: 95px;
 left: 0px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .stria{
@@ -750,11 +764,11 @@ background-color: midnightblue;
 	height: 0;
 	border-left: 0px solid transparent;
 	border-right: 45px solid transparent;
-	border-top: 45px solid midnightblue;
+	border-top: 45px solid tomato;
 }
 
 .t {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -768,7 +782,7 @@ top: 95px;
 left: 0px;
 width: 45px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .tsqb{
@@ -777,11 +791,11 @@ top: 95px;
 left: 95px;
 width: 45px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .u {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -794,12 +808,12 @@ position: absolute;
 top: 0px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 47%;
 }
 
 .v {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -812,7 +826,7 @@ position: absolute;
 top: 0px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 47%;
 }
 
@@ -823,8 +837,8 @@ left: 47%;
 	width: 0;
 	height: 0;
 	border-left: 45px solid transparent;
-	border-right: 0px solid orangered;
-	border-bottom: 45px solid midnightblue;
+	border-right: 0px solid black;
+	border-bottom: 45px solid tomato;
 }
 
 .vtrib{
@@ -835,11 +849,11 @@ left: 47%;
 	height: 0;
 	border-left: 0px solid transparent;
 	border-right: 45px solid transparent;
-	border-bottom: 45px solid midnightblue;
+	border-bottom: 45px solid tomato;
 }
 
 .w {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -855,7 +869,7 @@ left: 47%;
 	height: 0;
 	border-left: 45px solid transparent;
 	border-right: 0px solid transparent;
-	border-top: 45px solid midnightblue;
+	border-top: 45px solid tomato;
   transform:rotate(315deg);
 }
 
@@ -864,7 +878,7 @@ left: 47%;
 	top: 0px;
 	width: 8px;
 	height: 45px;
-	background-color: midnightblue;
+	background-color: tomato;
 	left: 37px;
 }
 
@@ -873,12 +887,12 @@ left: 47%;
 	top: 0px;
 	width: 8px;
 	height: 45px;
-	background-color: midnightblue;
+	background-color: tomato;
 	left: 95px;
 }
 
 .x {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -891,7 +905,7 @@ position: absolute;
 top: 0px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 47%;
 }
 
@@ -900,7 +914,7 @@ position: absolute;
 top: 95px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 47%;
 }
 
@@ -909,7 +923,7 @@ position: absolute;
 top: 68px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .xlined{
@@ -917,12 +931,12 @@ background-color: midnightblue;
 	top: 68px;
 	width: 45px;
 	height: 8px;
-	background-color: midnightblue;
+	background-color: tomato;
 	left:95px;
 }
 
 .y {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -935,7 +949,7 @@ position: absolute;
 top: 0px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 47%;
 }
 
@@ -947,11 +961,11 @@ left: 47%;
 	height: 0;
 	border-left: 0px solid transparent;
 	border-right: 45px solid transparent;
-	border-top: 45px solid midnightblue;
+	border-top: 45px solid tomato;
 }
 
 .z {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -967,7 +981,7 @@ left: 47%;
 	height: 0;
 	border-left: 0px solid transparent;
 	border-right: 45px solid transparent;
-	border-top: 45px solid midnightblue;
+	border-top: 45px solid tomato;
 }
 
 .ztrib{
@@ -977,12 +991,12 @@ left: 47%;
 	width: 0;
 	height: 0;
 	border-left: 45px solid transparent;
-	border-right: 0px solid orangered;
-	border-bottom: 45px solid midnightblue;
+	border-right: 0px solid black;
+	border-bottom: 45px solid tomato;
 }
 
 .zero {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -995,7 +1009,7 @@ position: absolute;
 top: 49px;
 width: 8px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 left: 47%;
 }
 
@@ -1007,7 +1021,7 @@ left: 47%;
 	height: 0;
 	border-left: 0px solid transparent;
 	border-right: 45px solid transparent;
-	border-bottom: 45px solid midnightblue;
+	border-bottom: 45px solid tomato;
 }
 
 .zerotria{
@@ -1017,7 +1031,7 @@ left: 47%;
 		height: 0;
 		border-left: 45px solid transparent;
 		border-right: 0px solid transparent;
-		border-top: 45px solid midnightblue;
+		border-top: 45px solid tomato;
 }
 
 .zerotrib{
@@ -1028,11 +1042,11 @@ left: 47%;
 	height: 0;
 	border-left: 0px solid transparent;
 	border-right: 45px solid transparent;
-	border-bottom: 45px solid midnightblue;
+	border-bottom: 45px solid tomato;
 }
 
 .one {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1046,7 +1060,7 @@ top: 95px;
 left: 0px;
 width: 45px;
 height: 45px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .onetria{
@@ -1056,12 +1070,12 @@ background-color: midnightblue;
 	width: 0;
 	height: 0;
 	border-left: 45px solid transparent;
-	border-right: 0px solid orangered;
-	border-bottom: 45px solid midnightblue;
+	border-right: 0px solid black;
+	border-bottom: 45px solid tomato;
 }
 
 .two {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1075,7 +1089,7 @@ top: 40px;
 left: 0px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .twolineb{
@@ -1084,7 +1098,7 @@ top: 95px;
 left: 95px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .twotria{
@@ -1094,11 +1108,11 @@ background-color: midnightblue;
 		height: 0;
 		border-left: 45px solid transparent;
 		border-right: 0px solid transparent;
-		border-top: 45px solid midnightblue;
+		border-top: 45px solid tomato;
 }
 
 .three {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1112,7 +1126,7 @@ background-color: midnightblue;
 	left: 0px;
 	width: 45px;
 	height: 8px;
-	background-color: midnightblue;
+	background-color: tomato;
 	}
 
 	.threelineb{
@@ -1121,7 +1135,7 @@ background-color: midnightblue;
 	left: 0px;
 	width: 45px;
 	height: 8px;
-	background-color: midnightblue;
+	background-color: tomato;
 	}
 
 .threetria{
@@ -1132,12 +1146,12 @@ background-color: midnightblue;
 	height: 0;
 	border-left: 45px solid transparent;
 	border-right: 0px solid transparent;
-	border-top: 45px solid midnightblue;
+	border-top: 45px solid tomato;
   transform:rotate(225deg);
 }
 
 .four {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1151,7 +1165,7 @@ background-color: midnightblue;
     left: 0px;
     width: 45px;
     height: 45px;
-    background-color: midnightblue;
+    background-color: tomato;
 }
 
 .fourlinea {
@@ -1159,7 +1173,7 @@ background-color: midnightblue;
     top: 0px;
     width: 8px;
     height: 45px;
-    background-color: midnightblue;
+    background-color: tomato;
     left: 47%;
 }
 
@@ -1171,11 +1185,11 @@ background-color: midnightblue;
     height: 0;
     border-left: 0px solid transparent;
     border-right: 45px solid transparent;
-    border-top: 45px solid midnightblue;
+    border-top: 45px solid tomato;
 }
 
 .five {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1189,7 +1203,7 @@ top: 40px;
 left: 95px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .fivelineb{
@@ -1198,11 +1212,11 @@ top: 95px;
 left: 0px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .six {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1216,7 +1230,7 @@ top: 40px;
 left: 95px;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .sixlineb{
@@ -1225,11 +1239,11 @@ background-color: midnightblue;
     left: 34%;
     width: 45px;
     height: 8px;
-    background-color: midnightblue;
+    background-color: tomato;
 	}
 
 .seven {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1245,7 +1259,7 @@ background-color: midnightblue;
 	height: 0;
 	border-left: 0px solid transparent;
 	border-right: 45px solid transparent;
-	border-top: 45px solid midnightblue;
+	border-top: 45px solid tomato;
 }
 
 .seventrib{
@@ -1255,12 +1269,12 @@ background-color: midnightblue;
 	width: 0;
 	height: 0;
 	border-left: 45px solid transparent;
-	border-right: 0px solid orangered;
-	border-bottom: 45px solid midnightblue;
+	border-right: 0px solid black;
+	border-bottom: 45px solid tomato;
 }
 
 .eight {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1274,7 +1288,7 @@ top: 40px;
 left: 34%;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .eightlineb{
@@ -1283,11 +1297,11 @@ top: 95px;
 left: 34%;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .nine {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1301,7 +1315,7 @@ top: 40px;
 left: 34%;
 width: 45px;
 height: 8px;
-background-color: midnightblue;
+background-color: tomato;
 }
 
 .ninelineb{
@@ -1310,11 +1324,11 @@ background-color: midnightblue;
     left: 0;
     width: 45px;
     height: 8px;
-    background-color: midnightblue;
+    background-color: tomato;
 	}
 
 .ques {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1328,7 +1342,7 @@ background-color: midnightblue;
     left: 0;
     width: 140px;
     height: 8px;
-    background-color: midnightblue;
+    background-color: tomato;
 	}
 
 	.queslinea {
@@ -1337,7 +1351,7 @@ background-color: midnightblue;
 	    left: 0px;
 	    width: 45px;
 	    height: 8px;
-	    background-color: midnightblue;
+	    background-color: tomato;
 	}
 
 	.quessqa{
@@ -1346,11 +1360,11 @@ background-color: midnightblue;
 	left: 95px;
 	width: 45px;
 	height: 45px;
-	background-color: midnightblue;
+	background-color: tomato;
 	}
 
 .ex {
-	background-color: orangered;
+	background-color: black;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1364,11 +1378,11 @@ background-color: midnightblue;
     left: 0;
     width: 140px;
     height: 8px;
-    background-color: midnightblue;
+    background-color: tomato;
 	}
 
 .per {
-	background-color: midnightblue;
+	background-color: tomato;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1382,11 +1396,11 @@ background-color: midnightblue;
     left: 0px;
     width: 45px;
     height: 45px;
-    background-color: orangered;
+    background-color: black;
 }
 
 .com {
-	background-color: midnightblue;
+	background-color: tomato;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1400,7 +1414,7 @@ background-color: midnightblue;
     left: 0px;
     width: 45px;
     height: 45px;
-    background-color: orangered;
+    background-color: black;
 }
 
 .comtria{
@@ -1411,7 +1425,7 @@ background-color: midnightblue;
 	height: 0;
 	border-left: 0px solid transparent;
 	border-right: 15px solid transparent;
-	border-top: 15px solid midnightblue;
+	border-top: 15px solid tomato;
 }
 
 .comtrib{
@@ -1421,12 +1435,12 @@ background-color: midnightblue;
 	width: 0;
 	height: 0;
 	border-left: 15px solid transparent;
-	border-right: 0px solid orangered;
-	border-bottom: 15px solid midnightblue;
+	border-right: 0px solid black;
+	border-bottom: 15px solid tomato;
 }
 
 .quoo {
-	background-color: midnightblue;
+	background-color: tomato;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1440,7 +1454,7 @@ background-color: midnightblue;
     left: 0px;
     width: 45px;
     height: 45px;
-    background-color: orangered;
+    background-color: black;
 }
 
 .quoosqa{
@@ -1450,8 +1464,8 @@ background-color: midnightblue;
 	width: 0;
 	height: 0;
 	border-left: 15px solid transparent;
-	border-right: 0px solid orangered;
-	border-bottom: 15px solid midnightblue;
+	border-right: 0px solid black;
+	border-bottom: 15px solid tomato;
 }
 
 .quoosqsq {
@@ -1460,7 +1474,7 @@ background-color: midnightblue;
     left: 55px;
     width: 45px;
     height: 45px;
-    background-color: orangered;
+    background-color: black;
 }
 
 .quoosqsqa{
@@ -1470,12 +1484,12 @@ background-color: midnightblue;
 	width: 0;
 	height: 0;
 	border-left: 15px solid transparent;
-	border-right: 0px solid orangered;
-	border-bottom: 15px solid midnightblue;
+	border-right: 0px solid black;
+	border-bottom: 15px solid tomato;
 }
 
 .quoc {
-	background-color: midnightblue;
+	background-color: tomato;
 	margin: 3%;
 	width:140px;
 	height:140px;
@@ -1489,7 +1503,7 @@ background-color: midnightblue;
     left: 40px;
     width: 45px;
     height: 45px;
-    background-color: orangered;
+    background-color: black;
 }
 
 .quocsqa {
@@ -1500,7 +1514,7 @@ background-color: midnightblue;
     height: 0;
     border-left: 0px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid midnightblue;
+    border-top: 15px solid tomato;
 }
 
 .quocsqsq {
@@ -1509,7 +1523,7 @@ background-color: midnightblue;
     left: 95px;
     width: 45px;
     height: 45px;
-    background-color: orangered;
+    background-color: black;
 }
 
 .quocsqsqa {
@@ -1520,5 +1534,5 @@ background-color: midnightblue;
     height: 0;
     border-left: 0px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid midnightblue;
+    border-top: 15px solid tomato;
 }
