@@ -10,41 +10,115 @@
     <style>
 
     body{
-      background-color:snow;
       margin:0;
     }
 
     a{
       text-decoration: none;
-      color:black;
       font-family: monospace;
-      font-size: 1vw;
+      font-size: 1.5vw;
+      line-height: 2.5vw;
     }
+
+    a:hover{
+      text-decoration: none;
+      font-family: monospace;
+      font-size: 1.8vw;
+      line-height: 2.5vw;
+      color:#E74C3C;
+    }
+
+    h1{
+      padding:5%;
+      left:1%;
+      color:white;
+      font-family: helvetica;
+      letter-spacing:0.5vw;
+      font-size: 2vw;
+    }
+
+    .col{
+      position:relative;
+      height:35vh;
+      width:33.33%;
+    }
+
+    .ex{
+      color:#7D6608;
+      float:left;
+      background-color:#E7D84B;
+    }
+
+    .ex a {
+      color: #7D6608;
+    }
+
+    .ex a:hover {
+      color:#8E44AD;
+    }
+
+    .pres{
+      color: #154360;
+      float:left;
+      background-color:#1B8798;
+    }
+
+    .pres a {
+      color: #154360;
+    }
+
+    .pres a:hover {
+      color:#8E44AD;
+    }
+
+    .project{
+      color:#784212;
+      float:left;
+      background-color:#FC930A;
+    }
+
+    .project a {
+      color: #873600;;
+    }
+
+    .project a:hover {
+      color:#8E44AD;
+    }
+
+    .text{
+      margin:2%;
+      position: absolute;
+      left:2%;
+    }
+
+
     </style>
+
 
 
 </head>
 
 
 <body>
-  <div class="ex">
-      <h1>Exercises</h1>
-      <a href="exercise-charrette/DivyaDas_Buttons.html" target="blank">50 Charrettes</a><br>
-      <a href="pres/scandFlag.html" target="blank">Flag</a><br>
+  <div class="col ex">
+      <h1>EXERCISES</h1>
+      <a class="text" href="exercise-charrette/DivyaDas_Buttons.html" target="blank">50 Charrettes</a><br>
+<br/>
+      <a class="text" href="pres/scandFlag.html" target="blank">Flag</a><br>
   </div>
 
-  <div class="pres">
-      <h1>Presentation</h1>
-      <a href="pres/silkroad.pdf" target="blank">The Dark Web: Silk Road</a>
+  <div class="col pres">
+      <h1>PRESENTATION</h1>
+      <a class="text " href="pres/silkroad.pdf" target="blank">The Dark Web: Silk Road</a>
   </div>
 
-  <div class="project">
-      <h1>Projects</h1>
-      <a href="http://dasdivya.github.io/INT2/1/Code/cube.html" target="blank">Resizing</a><br>
-
-      <a href="2/typeface.html" target="blank">CSS Typeface</a><br>
-
-      <a href="3/final/vimai.html" target="blank">Vivian Maier</a><br>
+  <div class="col project">
+      <h1>PROJECTS</h1>
+      <a class="text " href="http://dasdivya.github.io/INT2/1/Code/cube.html" target="blank">Resizing</a><br>
+<br/>
+      <a class="text " href="2/typeface.html" target="blank">CSS Typeface</a><br>
+<br/>
+      <a class="text " href="3/final/vimai.html" target="blank">Vivian Maier</a><br>
   </div>
 </body>
 </html>
